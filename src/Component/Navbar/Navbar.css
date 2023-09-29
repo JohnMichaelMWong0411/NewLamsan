@@ -1,0 +1,144 @@
+
+.Navbar-container {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #10552C;
+  color: #fff;
+  width: 100%;
+  z-index: 99999;
+  padding:15px;
+  height: 50px;
+}
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.nav-links a {
+  color: #fff;
+}
+
+.Navbar-container ul li a {
+  color: #fff;
+  text-decoration: none;
+  position: relative;
+}
+
+.Navbar-container ul li a::after {
+  content: '';
+  width: 0%;
+  height: 3px;
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+  background:  #F39C12;
+  transition: width 1s;
+  line-height: 1.7;
+}
+
+.Navbar-container ul li a:hover::after {
+  width: 100%;
+}
+.menu {
+  padding-right: 50px;
+  display: flex;
+  gap: 1em;
+  font-size: 18px;
+  font-weight: 500;
+}
+.menu li {
+  padding: 10px 14px;
+}
+.logo img{
+  height:28px;
+}
+.AboutUsMenu {
+  position: relative; 
+}
+.ManufacturingMenu {
+  position: relative; 
+}
+.dropdown {
+  background-color: #10552C;
+  padding: 1em 0;
+  position: absolute; 
+  display: none;
+  border-radius: 8px;
+  top: 31px;
+  transform: translateX(-5%);
+  width: auto;
+}
+
+.dropdown li + li {
+  margin-top: 10px;
+}
+
+.AboutUsMenu .dropdown li {
+  padding: 0.5em 1em;
+  width: 16em;
+  text-align: left;
+}
+.ManufacturingMenu .dropdown li {
+  padding: 0.5em 1em;
+  width: 14em;
+  text-align: left;
+}
+
+.AboutUsMenu:hover .dropdown {
+  display: block;
+}
+.ManufacturingMenu:hover .dropdown {
+  display: block;
+}
+
+input[type=checkbox] {
+  display: none;
+} 
+
+.hamburger {
+  display: none;
+  font-size: 24px;
+  /* user-select: none; */
+}
+
+@media (max-width: 1200px) {
+ .menu {
+    display:none;
+    position: absolute;
+    background-color:#10552C;
+    right: 0;
+    left: 0;
+    text-align: left;
+    padding: 16px 30px;
+    color: #fff;
+  }
+  .hamburger {
+    display: block;
+    font-size: 24px;
+    /* user-select: none; */
+  }
+  .menu li:hover {
+    display: inline-block;
+    transition: 0.3s ease;
+  }
+
+  .menu li + li {
+    margin-top: 12px;
+  }
+  input[type=checkbox]:checked ~ .menu {
+    display: block;
+  }
+  .dropdown {
+    z-index: 9999;
+    left: 50%;
+    top: 20px;
+    transform: translateX(10%);
+  }
+
+}

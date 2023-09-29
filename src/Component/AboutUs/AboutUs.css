@@ -1,0 +1,48 @@
+.AboutUs_wrapper {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 5rem 5% 1rem;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1)),url('../../../public/corn.jpg');
+    background-repeat: no-repeat;
+    background-color: black;
+    background-size: cover;
+    letter-spacing: 0;
+    line-height: 1.9em;
+}
+.AboutUsContent1 {
+    width: 70%;
+}
+.AboutUsContent2 {
+    text-align: right;
+    justify-content: flex-end;
+    width: 30%;
+}
+.AboutUsContent2 h1 {
+    font-weight: 400;
+    color: white;
+    text-shadow: 1px 1px 1px #000000;
+}
+.AboutUsContent2 h2 {
+    padding-top: 3px;
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    text-shadow: 1px 1px 1px #000000;
+    text-align: right;
+}
+.AboutUsContent2 span {
+    font-size: 42px;
+    color:#F39C12;
+    text-shadow: 1px 1px 1px black;
+    line-height: 40px;
+}
+.AboutUsContent2 .SpanBold {
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 50px;
+    text-shadow: 1px 1px 1px #000;
+    color: #10552C;
+}

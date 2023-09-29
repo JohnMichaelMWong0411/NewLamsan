@@ -1,0 +1,48 @@
+.History_wrapper {
+    background-color:#f0f0f0;
+    letter-spacing: 0;
+    width: 100%;
+    padding: 3rem 15% 2rem;
+    background: #f9f9f9 url(../../../public/white_texture.jpg) repeat top left;    
+}
+.HistoryTitle {
+    width: 100%;
+    font-weight: 600;
+    padding: 1rem 0% 1rem;
+}
+.HistoryTitle span {
+    font-size: 3rem;
+    color: #10552C;
+}
+.HistoryContent {
+    display: flex;
+    flex-direction: row;
+    height: 90vh;
+    padding: 2rem 0% 5.5rem;
+    gap:3rem;
+}
+.HistoryContentText { 
+    width: 50%;
+
+}
+.HistoryContentText h2{ 
+    font-size: 20px;
+    color:#252920;
+    font-weight: 500;
+}
+.highlight {
+    color:#F39C12;
+}
+.HistoryContentImage {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 0rem 5% 0rem;
+}
+.HistoryContentImage img{
+    display: block;
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
