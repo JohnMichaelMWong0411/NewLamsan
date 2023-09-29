@@ -19,14 +19,14 @@
     flex-direction: row;
     height: 90vh;
     padding: 2rem 0% 5.5rem;
-    gap:3rem;
+    gap:2rem;
 }
 .HistoryContentText { 
     width: 50%;
 
 }
 .HistoryContentText h2{ 
-    font-size: 20px;
+    font-size: 18px;
     color:#252920;
     font-weight: 500;
 }
@@ -45,4 +45,13 @@
     object-position: center;
     width: 100%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.HistoryContentImage:hover img {
+	-webkit-transform: scale(1);
+	transform: scale(1.1);
 }

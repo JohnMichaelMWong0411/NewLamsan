@@ -56,7 +56,8 @@ li {
   padding: 10px 14px;
 }
 .logo img{
-  height:28px;
+  height:30px;
+  margin-top: 8px;
 }
 .AboutUsMenu {
   position: relative; 

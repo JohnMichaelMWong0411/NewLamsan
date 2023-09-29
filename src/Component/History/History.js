@@ -24,7 +24,7 @@ const History = () => {
                         </div>
                         <div class='HistoryContentText'>
                         <h2>In 1969, Mr. Robert Lu thought of venturing into the corn wet milling business.
-                          With the invaluable help of his brothers, the Lamsan cornstarch factory was put up and
+                          With the invaluable help of his brothers, the <span class='highlight'>Lamsan cornstarch factory</span> was put up and
                             started operations in 1971. Although immediately faced with enormous difficulties 
                             during the martial law years due to the dramatic peso devaluation, business steadily 
                             improved such that it warranted a capacity expansion in the early '90s. The expansion,
